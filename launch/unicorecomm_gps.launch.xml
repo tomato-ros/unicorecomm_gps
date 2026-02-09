@@ -1,0 +1,9 @@
+<launch>
+    
+    <arg name="params_file" default="$(find-pkg-share unicorecomm_gps)/config/um982.yaml"/>
+
+    <node pkg="unicorecomm_gps" exec="unicorecomm_gps_node" respawn="true" respawn_delay="1.0">
+        <param from="$(var params_file)"/>
+    </node>
+
+</launch>
