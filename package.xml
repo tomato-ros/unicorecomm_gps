@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format='2'>
+  <name>unicorecomm_gps</name>
+  <version>0.1.0</version>
+  <description>Driver for unicorecomm_gps GPS devices.</description>
+  <author>smartros</author>
+  <license>Apache License Version 2.0</license>
+  <maintainer email="smartros@foxmail.com">smartros</maintainer>
+  <url>https://github.com/tomato-ros/unicorecomm_gps.git</url>
+
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+
+  <depend>diagnostic_msgs</depend>
+  <depend>diagnostic_updater</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nmea_msgs</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>rtcm_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
